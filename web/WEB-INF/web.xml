@@ -2,7 +2,7 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <servlet>
         <servlet-name>loginpage</servlet-name>
-        <servlet-class>shikha.loginpage</servlet-class>
+        <servlet-class>MyPkg.loginpage</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LogAuth</servlet-name>
@@ -10,271 +10,271 @@
     </servlet>
     <servlet>
         <servlet-name>LoginAuth</servlet-name>
-        <servlet-class>shikha.LoginAuth</servlet-class>
+        <servlet-class>MyPkg.LoginAuth</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Service</servlet-name>
-        <servlet-class>shikha.Service</servlet-class>
+        <servlet-class>MyPkg.Service</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Logout</servlet-name>
-        <servlet-class>shikha.Logout</servlet-class>
+        <servlet-class>MyPkg.Logout</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Register</servlet-name>
-        <servlet-class>shikha.Register</servlet-class>
+        <servlet-class>MyPkg.Register</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RegistrationLog</servlet-name>
-        <servlet-class>shikha.RegistrationLog</servlet-class>
+        <servlet-class>MyPkg.RegistrationLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveItem</servlet-name>
-        <servlet-class>shikha.RemoveItem</servlet-class>
+        <servlet-class>MyPkg.RemoveItem</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveItemLog</servlet-name>
-        <servlet-class>shikha.RemoveItemLog</servlet-class>
+        <servlet-class>MyPkg.RemoveItemLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddItem</servlet-name>
-        <servlet-class>shikha.AddItem</servlet-class>
+        <servlet-class>MyPkg.AddItem</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddItemLog</servlet-name>
-        <servlet-class>shikha.AddItemLog</servlet-class>
+        <servlet-class>MyPkg.AddItemLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateItem</servlet-name>
-        <servlet-class>shikha.UpdateItem</servlet-class>
+        <servlet-class>MyPkg.UpdateItem</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateItem_Log</servlet-name>
-        <servlet-class>shikha.UpdateItem_Log</servlet-class>
+        <servlet-class>MyPkg.UpdateItem_Log</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>adminHome</servlet-name>
-        <servlet-class>shikha.adminHome</servlet-class>
+        <servlet-class>MyPkg.adminHome</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>userHome</servlet-name>
-        <servlet-class>shikha.userHome</servlet-class>
+        <servlet-class>MyPkg.userHome</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserManager</servlet-name>
-        <servlet-class>shikha.UserManager</servlet-class>
+        <servlet-class>MyPkg.UserManager</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserManagerLog</servlet-name>
-        <servlet-class>shikha.UserManagerLog</servlet-class>
+        <servlet-class>MyPkg.UserManagerLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserManagerLog1</servlet-name>
-        <servlet-class>shikha.UserManagerLog1</servlet-class>
+        <servlet-class>MyPkg.UserManagerLog1</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewAll</servlet-name>
-        <servlet-class>shikha.ViewAll</servlet-class>
+        <servlet-class>MyPkg.ViewAll</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditData</servlet-name>
-        <servlet-class>shikha.EditData</servlet-class>
+        <servlet-class>MyPkg.EditData</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SearchItem</servlet-name>
-        <servlet-class>shikha.SearchItem</servlet-class>
+        <servlet-class>MyPkg.SearchItem</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SearchItemLog</servlet-name>
-        <servlet-class>shikha.SearchItemLog</servlet-class>
+        <servlet-class>MyPkg.SearchItemLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CheckStatusSelect</servlet-name>
-        <servlet-class>shikha.CheckStatusSelect</servlet-class>
+        <servlet-class>MyPkg.CheckStatusSelect</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CheckStatus</servlet-name>
-        <servlet-class>shikha.CheckStatus</servlet-class>
+        <servlet-class>MyPkg.CheckStatus</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PlaceOrder</servlet-name>
-        <servlet-class>shikha.PlaceOrder</servlet-class>
+        <servlet-class>MyPkg.PlaceOrder</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PlaceOrderLog73</servlet-name>
-        <servlet-class>shikha.PlaceOrderLog73</servlet-class>
+        <servlet-class>MyPkg.PlaceOrderLog73</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PlaceOrderLog37</servlet-name>
-        <servlet-class>shikha.PlaceOrderLog37</servlet-class>
+        <servlet-class>MyPkg.PlaceOrderLog37</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddCart</servlet-name>
-        <servlet-class>shikha.AddCart</servlet-class>
+        <servlet-class>MyPkg.AddCart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddCart1</servlet-name>
-        <servlet-class>shikha.AddCart1</servlet-class>
+        <servlet-class>MyPkg.AddCart1</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateCart</servlet-name>
-        <servlet-class>shikha.UpdateCart</servlet-class>
+        <servlet-class>MyPkg.UpdateCart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateQty73</servlet-name>
-        <servlet-class>shikha.UpdateQty73</servlet-class>
+        <servlet-class>MyPkg.UpdateQty73</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Remove_From_Cart</servlet-name>
-        <servlet-class>shikha.Remove_From_Cart</servlet-class>
+        <servlet-class>MyPkg.Remove_From_Cart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>MonthlyReport</servlet-name>
-        <servlet-class>shikha.MonthlyReport</servlet-class>
+        <servlet-class>MyPkg.MonthlyReport</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SeeStatus</servlet-name>
-        <servlet-class>shikha.SeeStatus</servlet-class>
+        <servlet-class>MyPkg.SeeStatus</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ReceiveOrder</servlet-name>
-        <servlet-class>shikha.ReceiveOrder</servlet-class>
+        <servlet-class>MyPkg.ReceiveOrder</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PRPOLog</servlet-name>
-        <servlet-class>shikha.PRPOLog</servlet-class>
+        <servlet-class>MyPkg.PRPOLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddCart_PRPO</servlet-name>
-        <servlet-class>shikha.AddCart_PRPO</servlet-class>
+        <servlet-class>MyPkg.AddCart_PRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddCart1_PRPO</servlet-name>
-        <servlet-class>shikha.AddCart1_PRPO</servlet-class>
+        <servlet-class>MyPkg.AddCart1_PRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateCartPRPO</servlet-name>
-        <servlet-class>shikha.UpdateCartPRPO</servlet-class>
+        <servlet-class>MyPkg.UpdateCartPRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateQty_PRPO</servlet-name>
-        <servlet-class>shikha.UpdateQty_PRPO</servlet-class>
+        <servlet-class>MyPkg.UpdateQty_PRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Remove_From_Cart_PRPO</servlet-name>
-        <servlet-class>shikha.Remove_From_Cart_PRPO</servlet-class>
+        <servlet-class>MyPkg.Remove_From_Cart_PRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CheckStatusPRPO</servlet-name>
-        <servlet-class>shikha.CheckStatusPRPO</servlet-class>
+        <servlet-class>MyPkg.CheckStatusPRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SeeStatusPRPO</servlet-name>
-        <servlet-class>shikha.SeeStatusPRPO</servlet-class>
+        <servlet-class>MyPkg.SeeStatusPRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SeeStatusPRPOLog</servlet-name>
-        <servlet-class>shikha.SeeStatusPRPOLog</servlet-class>
+        <servlet-class>MyPkg.SeeStatusPRPOLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ReceiveOrderPRPO</servlet-name>
-        <servlet-class>shikha.ReceiveOrderPRPO</servlet-class>
+        <servlet-class>MyPkg.ReceiveOrderPRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewAllReportRSV</servlet-name>
-        <servlet-class>shikha.ViewAllReportRSV</servlet-class>
+        <servlet-class>MyPkg.ViewAllReportRSV</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewAllReportPRPO</servlet-name>
-        <servlet-class>shikha.ViewAllReportPRPO</servlet-class>
+        <servlet-class>MyPkg.ViewAllReportPRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Bills</servlet-name>
-        <servlet-class>shikha.Bills</servlet-class>
+        <servlet-class>MyPkg.Bills</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddBill</servlet-name>
-        <servlet-class>shikha.AddBill</servlet-class>
+        <servlet-class>MyPkg.AddBill</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddBillLog</servlet-name>
-        <servlet-class>shikha.AddBillLog</servlet-class>
+        <servlet-class>MyPkg.AddBillLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateBill</servlet-name>
-        <servlet-class>shikha.UpdateBill</servlet-class>
+        <servlet-class>MyPkg.UpdateBill</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateBillLog</servlet-name>
-        <servlet-class>shikha.UpdateBillLog</servlet-class>
+        <servlet-class>MyPkg.UpdateBillLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveBill</servlet-name>
-        <servlet-class>shikha.RemoveBill</servlet-class>
+        <servlet-class>MyPkg.RemoveBill</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewBillReport</servlet-name>
-        <servlet-class>shikha.ViewBillReport</servlet-class>
+        <servlet-class>MyPkg.ViewBillReport</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>User_IssueForm</servlet-name>
-        <servlet-class>shikha.User_IssueForm</servlet-class>
+        <servlet-class>MyPkg.User_IssueForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>User_IssueFormLog</servlet-name>
-        <servlet-class>shikha.User_IssueFormLog</servlet-class>
+        <servlet-class>MyPkg.User_IssueFormLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>User_IssueProducts</servlet-name>
-        <servlet-class>shikha.User_IssueProducts</servlet-class>
+        <servlet-class>MyPkg.User_IssueProducts</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>User_SearchItemLog</servlet-name>
-        <servlet-class>shikha.User_SearchItemLog</servlet-class>
+        <servlet-class>MyPkg.User_SearchItemLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ServiceOrder</servlet-name>
-        <servlet-class>shikha.ServiceOrder</servlet-class>
+        <servlet-class>MyPkg.ServiceOrder</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddCart_Service</servlet-name>
-        <servlet-class>shikha.AddCart_Service</servlet-class>
+        <servlet-class>MyPkg.AddCart_Service</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddCart1_Service</servlet-name>
-        <servlet-class>shikha.AddCart1_Service</servlet-class>
+        <servlet-class>MyPkg.AddCart1_Service</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Remove_From_Cart_Service</servlet-name>
-        <servlet-class>shikha.Remove_From_Cart_Service</servlet-class>
+        <servlet-class>MyPkg.Remove_From_Cart_Service</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateCart_Service</servlet-name>
-        <servlet-class>shikha.UpdateCart_Service</servlet-class>
+        <servlet-class>MyPkg.UpdateCart_Service</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CheckStatusService</servlet-name>
-        <servlet-class>shikha.CheckStatusService</servlet-class>
+        <servlet-class>MyPkg.CheckStatusService</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SeeStatusService</servlet-name>
-        <servlet-class>shikha.SeeStatusService</servlet-class>
+        <servlet-class>MyPkg.SeeStatusService</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SeeStatusServiceLog</servlet-name>
-        <servlet-class>shikha.SeeStatusServiceLog</servlet-class>
+        <servlet-class>MyPkg.SeeStatusServiceLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ReceiveOrderService</servlet-name>
-        <servlet-class>shikha.ReceiveOrderService</servlet-class>
+        <servlet-class>MyPkg.ReceiveOrderService</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewAllReportService</servlet-name>
-        <servlet-class>shikha.ViewAllReportService</servlet-class>
+        <servlet-class>MyPkg.ViewAllReportService</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewAllReportIssue</servlet-name>
-        <servlet-class>shikha.ViewAllReportIssue</servlet-class>
+        <servlet-class>MyPkg.ViewAllReportIssue</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateLog</servlet-name>
@@ -282,27 +282,27 @@
     </servlet>
     <servlet>
         <servlet-name>EditPassword</servlet-name>
-        <servlet-class>shikha.EditPassword</servlet-class>
+        <servlet-class>MyPkg.EditPassword</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditPasswordLog</servlet-name>
-        <servlet-class>shikha.EditPasswordLog</servlet-class>
+        <servlet-class>MyPkg.EditPasswordLog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>MonthlyReport_Insu</servlet-name>
-        <servlet-class>shikha.MonthlyReport_Insu</servlet-class>
+        <servlet-class>MyPkg.MonthlyReport_Insu</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewReportInsuPRPO</servlet-name>
-        <servlet-class>shikha.ViewReportInsuPRPO</servlet-class>
+        <servlet-class>MyPkg.ViewReportInsuPRPO</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewReportInsuRES</servlet-name>
-        <servlet-class>shikha.ViewReportInsuRES</servlet-class>
+        <servlet-class>MyPkg.ViewReportInsuRES</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewReportInsuISSUE</servlet-name>
-        <servlet-class>shikha.ViewReportInsuISSUE</servlet-class>
+        <servlet-class>MyPkg.ViewReportInsuISSUE</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>loginpage</servlet-name>
