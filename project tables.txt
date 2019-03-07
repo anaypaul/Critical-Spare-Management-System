@@ -1,0 +1,173 @@
+(1).
+create table login_sms(username varchar2(40) primary key,
+password varchar2(20) not null,
+utype varchar2(10) not null);
+
+(2).
+create table rq_sms(us varchar2(40) primary key,
+status varchar2(8),
+name varchar2(40),
+constraint fk foreign key(us) references login_sms(username));
+
+(3).
+create table products_sms(umc varchar2(9) unique,
+name varchar2(100),
+plant number(3),
+category varchar2(30),
+criticality varchar2(6),
+material_class varchar2(1),
+r_qty number(12),
+l_store_qty number(15),
+m_store_qty number(15),
+qty number(24),
+uom varchar2(60),
+location varchar2(120),
+unit_price number(14,4),
+total_price number(24,4),
+nrml_insu varchar2(9),
+flag_colour number(15));
+
+(4).
+create table monthly_report_service_sms(shopping_cart_no varchar2(20),
+pr_no varchar2(20),
+order_date date,
+po_no varchar2(20),
+exp_delivery_date date,
+name varchar2(100),
+order_qty number(15),
+unit_price number(14,4),
+total_price number(24,4),
+receive_date date,
+pr_date date,
+po_date date);
+
+(5).
+create table cart(cart_no varchar2(20),
+umc varchar2(9),
+name varchar2(100),
+category varchar2(30),
+criticality varchar2(6),
+material_class varchar2(1),
+order_qty number(15),
+order_date date,
+unit_price number(14,4),
+plant number(3));
+
+(6).
+create table order73(shopping_cart_no varchar2(20),
+order_date date,
+umc varchar2(9),
+name varchar2(100),
+order_qty number(15),
+unit_price number(14,4),
+total_price number(24,4),
+reservation_no varchar2(20),
+plant number(3),
+receive_date date);
+
+(7).
+create table monthly_report_rev_sms(shopping_cart_no varchar2(20),
+order_date date,
+umc varchar2(9),
+name varchar2(100),
+order_qty number(15),
+unit_price number(14,4),
+total_price number(24,4),
+reservation_no varchar2(20),
+plant number(3),
+receive_date date,
+received_qty number(15));
+
+(8).
+create table cart_prpo(cart_no varchar2(20),
+umc varchar2(9),
+name varchar2(100),
+category varchar2(30),
+criticality varchar2(6),
+material_class varchar2(1),
+order_qty number(15),
+order_date date,
+unit_price number(14,4),
+plant number(3));
+
+(9).
+create table order_prpo(shopping_cart_no varchar2(20),
+pr_no varchar2(20),
+order_date date,
+po_no varchar2(20),
+exp_delivery_date date,
+umc varchar2(9),
+name varchar2(60),
+order_qty number(15),
+unit_price number(14,4),
+total_price number(24,4),
+plant number(3),
+receive_date date,
+pr_date date,
+po_date date);
+
+(10).
+create table monthly_report_prpo_sms(shopping_cart_no varchar2(20),
+pr_no varchar2(20),
+order_date date,
+po_no varchar2(20),
+exp_delivery_date date,
+umc varchar2(9),
+name varchar2(60),
+order_qty number(15),
+unit_price number(14,4),
+total_price number(24,4),
+plant number(3),
+receive_date date,
+pr_date date,
+po_date date,
+received_qty number(15));
+
+(11).
+create table bills(description varchar2(100),
+received_on date,
+bill_ref_no varchar2(30) primary key,
+work_order_no number(20),
+mo_no number(20),
+sc_for_do number(20),
+do number(20),
+conf_for_ses number(20),
+ses number(20),
+total_value_wot number(24,4),
+total_value_wt number(24,4),
+total_value_bal number(24,4),
+comments varchar2(300));
+
+(12).
+create table monthly_report_issue_sms(umc varchar2(9),
+name varchar2(100),
+issue_qty number(15),
+issue_date date,
+unit_price number(14,4),
+total_price number(24,4));
+
+(13).
+create table order_service(shopping_cart_no varchar2(20),
+pr_no varchar2(20),
+order_date date,
+po_no varchar2(20),
+exp_delivery_date date,
+name varchar2(60),
+order_qty number(15),
+unit_price number(14,4),
+total_price number(24,4),
+receive_date date,
+pr_date date,
+po_date date);
+
+(14).
+create table cart_service(cart_no varchar2(20),
+name varchar2(100),
+order_qty number(15),
+order_date date,
+unit_price number(14,4));
+
+
+
+
+			
